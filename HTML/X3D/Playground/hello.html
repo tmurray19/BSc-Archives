@@ -1,0 +1,89 @@
+<html>
+
+    <head>
+        <title>Student ID: 15315901</title>
+        <script type='text/javascript' src='http://www.x3dom.org/download/x3dom.js'> </script>
+        <link rel='stylesheet' type='text/css' href='http://www.x3dom.org/download/x3dom.css'></link>
+    </head>
+
+    <body> 
+        <h1>Name: Taidgh Murray</h1>
+
+        <p>
+            CT336 Project: Treasure Chest
+        </p>
+        <p>
+            Course: 4BS9
+        </p>
+
+        <x3d width='1200px' height='700px'>
+          <scene>
+            <group>
+
+
+              <shape>
+
+                <Appearance>
+                  <material
+                   diffuseColor='0.824 0.706 0.549'
+                   specularColor='0.855 0.647 0.125'
+                   ambientIntensity='0.3'
+                   shininess='0.3'
+                   >
+                 </material>
+
+                  <ImageTexture
+                    url = 'wood-textures-high-quality-8.jpg'
+                  />
+
+                </Appearance>
+
+                <box
+                size = '4 2 2'
+                />
+
+
+              </shape>
+
+<!---
+                <Transform translation = '0 1 0'>
+                <Transform rotation = '0 0 1 1.5708'>
+
+
+                <shape>
+
+                  <Appearance
+                    <ImageTexture
+                      url = 'wood-textures-high-quality-8.jpg'
+                    />
+                  </Appearance>
+
+                  <Cylinder
+                   radius = '1'
+                   height = '4'
+                   side = TRUE
+                   bottom = FALSE
+                   top = FALSE
+                  />
+                </shape>
+-->
+              <shape>
+                <Appearance>
+                  <Material diffuseColor='1 0.9 0.7'/>
+                </Appearance>
+
+                <Extrusion
+                    creaseAngle='0.785'
+                    crossSection='1.00 0.00 0.92 -0.38 0.71 -0.71 0.38 -0.92 0.00 -1.00 -0.38 -0.92 -0.71 -0.71 -0.92 -0.38 -1.00 -0.00'
+                    solid='false'
+                    spine='0 -1 0 0 1 0'
+                />
+              </shape>
+
+            </group>
+          </scene>
+        </x3d>
+
+    </body>
+
+</html>

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="11" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false"></View-Properties>
+<MapleNet-Properties warnlevel="3" longdelim="true" plotoptions="" echo="1" errorcursor="false" elisiontermsthreshold="10000" elisiontermsbefore="100" errorbreak="1" prettyprint="3" prompt="&gt; " latexwidth="6.0" useclientjvm="true" ansi="false" screenheight="25" labelwidth="20" plotdevice="inline" typesetting="standard" displayprecision="-1" indentamount="4" elisiondigitsthreshold="10000" quiet="false" plotoutput="terminal" rtablesize="10" preplot="" showassumed="1" plotdriver="openviz" elisiontermsafter="100" labelling="true" postplot="" screenwidth="79" elisiondigitsbefore="100" elisiondigitsafter="100" verboseproc="1" imaginaryunit="I" ShowLabels="true"/>
+<Styles><Font name="Heading 4" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Left Justified Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="9" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Variable" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Number" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Nonterminal" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Default" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Comment" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Fixed" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="R3 Font 2" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Popup" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Plot Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Copyright" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold Small" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal258" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Fixed Width" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Notes" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Help Underlined Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math Symbol 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="R3 Font 0" background="[255,255,255]" bold="true" executable="false" family="Arial" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small201" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Heading" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Output Labels" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Comment" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Maple Name" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Help Emphasized" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic Bold" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="LaTeX" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Menus" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Prompt" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="none" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Left Justified Maple Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Help" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="none" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 0" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="none" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal258" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Fixed Width" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="none" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Page-Numbers enabled="false" first-number="1" first-numbered-page="1" horizontal-location="right" style="Page Number" vertical-location="bottom"/>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Annotation-table>
+    <Annotation-category name="&lt;default&gt;">
+    </Annotation-category>
+</Annotation-table>
+<Task>
+</Task>
+<Group labelreference="L3" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+<Text-field style="Title" layout="Title">Network Flow Models - Petri Piiroinen, MP305</Text-field>
+<Text-field style="Normal258" layout="Normal258">This Maple worksheet contains a number of procedures for finding the maximal flow through a network G subject to minimal cost. </Text-field>
+<Text-field style="Normal258" layout="Normal258"></Text-field>
+<Text-field style="Normal258" layout="Normal258">The network graph G is stored in a set of two element lists describing the directed arcs between the nodes. It is assumed that node number 1 is the source and the greatest node is the sink e.g. for G:={[1,2],[2,3],[1,3]} node 1 is the source and node 3 is the sink.</Text-field>
+<Text-field style="Normal258" layout="Normal258"></Text-field>
+<Text-field style="Normal258" layout="Normal258">The capacity, flow and cost of the arc [i,j] of G are given by c[i,j], phi[i,j] and l[i,j]. Having defined the network G, it is recommended to initialise all of these quantities to zero via the Initialise(G) procedure before defining their values. </Text-field>
+<Text-field style="Normal258" layout="Normal258"></Text-field>
+<Text-field style="Normal258" layout="Normal258">The main procedure is Iterate(G) which implements the full algorithm to find the maximum flow with minimal cost.  The output is as follows:</Text-field>
+<Text-field style="Normal258" layout="Normal258"></Text-field>
+<Text-field style="Normal258" layout="Normal258">(1) The incremental network Gp.</Text-field>
+<Text-field style="Normal258" layout="Normal258">(2) The paths through Gp from source to sink.</Text-field>
+<Text-field style="Normal258" layout="Normal258">(3) The output of Newflows(G). </Text-field>
+<Text-field style="Normal258" layout="Normal258">(4) The output of Flows(G) giving the current flows and cost of G.</Text-field>
+<Text-field style="Normal258" layout="Normal258"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal258"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4" drawlabel="true">
+<Input>
+<Text-field style="Normal258" layout="Normal258">The Iterate(G) procedure is based on a number of other procedures:</Text-field>
+<Text-field style="Normal258" layout="Normal258"></Text-field>
+<Text-field style="Normal258" layout="Normal258">Flows(G): This checks for conservation of flow and prints out all of the current flows for G and the total cost of this flow. </Text-field>
+<Text-field style="Normal258" layout="Normal258"></Text-field>
+<Text-field style="Normal258" layout="Normal258">Links(G): Finds all arcs [i,j1],[i,j2],.. out of node i of G.  The nodes {j1,j2,..} are stored in the global table of sets Out. The global variables Nset (the set of nodes in G) and Nsink (the sink node of G) are also found.</Text-field>
+<Text-field style="Normal258" layout="Normal258"></Text-field>
+<Text-field style="Normal258" layout="Normal258">SourceSink(G): This finds all of the paths from source to sink in any network G and results in the global set SinkPaths of such paths.</Text-field>
+<Text-field style="Normal258" layout="Normal258"></Text-field>
+<Text-field style="Normal258" layout="Normal258">IncremNet(G): This finds the Incremental Network Gp associated with the current flow of the network G.</Text-field>
+<Text-field style="Normal258" layout="Normal258"></Text-field>
+<Text-field style="Normal258" layout="Normal258">Newflows(G): This updates the flows phi[i,j] of G according to the best chain found through Gp. If the maximal flow is reached, then this is indicated and the maximum flow value is outputed. Otherwise, the output is: the change in flow (eps), the cost of the best chain, and the best chain.</Text-field>
+<Text-field style="Normal258" layout="Normal258"></Text-field>
+<Text-field style="Normal258" layout="Normal258">Iterate(G): Implements the full algorithm to find the maximum flow with minimal cost. </Text-field>
+<Text-field style="Normal258" layout="Normal258"></Text-field>
+<Text-field style="Normal258" layout="Normal258">The output is as follows:</Text-field>
+<Text-field style="Normal258" layout="Normal258">(1) The incremental network Gp.</Text-field>
+<Text-field style="Normal258" layout="Normal258">(2) The paths through Gp from source to sink.</Text-field>
+<Text-field style="Normal258" layout="Normal258">(3) The output of Newflows(G). </Text-field>
+<Text-field style="Normal258" layout="Normal258">(4) The output of Flows(G) giving the current flows and cost of G.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Initialise:=proc(G)</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">global l,c,phi;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">local ij,arc;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for arc in G do </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  ij:=op(arc);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  c[ij]:=0;phi[ij]:=0;l[ij]:=0;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">print(`All values of c,phi and l initialised to zero`);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L7" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Links:=proc(G)</Text-field>
+<Text-field style="Normal258" layout="Normal258">This finds all nodes {j1,..} linked out of node i in graph G. The output is stored in a table of sets Out[i]={j1 , j2 , ...}.</Text-field>
+<Text-field style="Normal258" layout="Normal258">The nodes of G are also stored in the global set Nset and the sink node Nsink.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">local i,j,arc,node;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">global Nset,Nsink,Out;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Nset:={};</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for arc in G do Nset:=Nset union {op(arc)};od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for node in Nset do Out[node]:={};od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Nsink:=max(op(Nset));</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for arc in G do </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  i:=op(1,arc); j:=op(2,arc);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  Out[i]:=Out[i] union {j}:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L8" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L9" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Flows:=proc(G)</Text-field>
+<Text-field style="Text" layout="Normal">A procedure to print current flow phi[m,n] and cost of the graph G</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">local i,j,pij,arc,node,Flowin,Flowout,Totalcost;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">global phi,l,Nset,Nsink;</Text-field>
+<Text-field style="Text" layout="Normal">First test for conservation of flow through the network</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for node in Nset do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  Flowin[node]:=0; Flowout[node]:=0;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od;  </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for arc in G do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  i:=op(1,arc); j:=op(2,arc);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  Flowin[j]:=Flowin[j]+phi[i,j];</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  Flowout[i]:=Flowout[i]+phi[i,j];</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for node in Nset minus {1,Nsink} do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  if Flowin[node]&lt;&gt;Flowout[node]</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">   then ERROR(`Flows not conserved at node`, node);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  fi;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od; </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">if Flowout[1]&lt;&gt;Flowin[Nsink]</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"> then ERROR(`Flows not conserved at source or sink`);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">fi;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Totalcost:=0;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for arc in G do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">    i:=op(1,arc); j:=op(2,arc); pij:=phi[i,j];</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">    Totalcost:=Totalcost+l[i,j]*pij;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">    lprint(arc,`has flow`,pij);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lprint(` Total Cost`,Totalcost);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L10" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L11" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">SourceSink:=proc(G)</Text-field>
+<Text-field style="Text" layout="Normal">A procedure to find paths SinkPaths from source vertex 1 to sink node Nsink</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">local node, Paths,mout,nold,m,loop,path,pathn,oldpath,Npaths,NewPaths;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">global Nsink,SinkPaths;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Links(G);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Paths:={} ;SinkPaths:={};path:=1; </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for node in Out[1] do </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">      pathn:=[path,node];</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">      if node=Nsink then</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">        SinkPaths:=SinkPaths union{pathn};</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">      else </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">         Paths:=Paths union {pathn};   </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">      fi;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od;Paths;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Npaths:=nops(Paths);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">while Npaths&gt;0 do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">NewPaths:={};</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  for oldpath in Paths do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">     nold:=nops(oldpath);</Text-field>
+<Text-field style="Normal" layout="Normal"> <Font style="Text">m is label of last vertex of an old path</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">     m:=op(nold,oldpath);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">     for mout in Out[m] do </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">       loop:={mout} intersect {op(oldpath)};</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">       if loop={} then   </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">          if mout=Nsink then</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">             SinkPaths:=SinkPaths union {[op(oldpath),Nsink]};</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">          else</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">             NewPaths:=NewPaths union {[op(oldpath),mout]}; </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">          fi;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">       fi;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">     od;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">   od;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">   Paths:=NewPaths;  Npaths:=nops(Paths); </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lprint(SinkPaths);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L12" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L13" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">IncremNet:=proc(G)</Text-field>
+<Text-field style="Text" layout="Normal">A procedure to generate the incremental network Gp</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">local arc,i,j,lij,pij,pji,cij,cji;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">global Nset,Gp,cp,lp,c,phi,l,ArcSign;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Gp:={};</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for arc in G do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">    i:=op(1,arc);j:=op(2,arc);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">   pij:=phi[i,j]; pji:=phi[j,i]; cij:=c[i,j]; lij:=l[i,j];</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">   if (pij&lt;cij and (pji=0 or not(member([j,i],G)) ) ) then</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">       Gp:=Gp union {[i,j]}; </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">       cp[i,j]:=cij-pij; lp[i,j]:=lij;ArcSign[i,j]:=+1;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">   fi;  </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">   if pij&gt;0 then</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">      Gp:=Gp union {[j,i]};</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">      cp[j,i]:=pij; lp[j,i]:=-lij;ArcSign[j,i]:=-1;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">   fi; </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">od; </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L14" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L15" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L16" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Newflows:=proc(G)</Text-field>
+<Text-field style="Text" layout="Normal">A procedure to modify original flows on G along SinkPaths with minimal cost</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">local arc,path,node,i,j,k,n,Flow,Npaths,cost,eps,mincost,bestpath,besteps,epset;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">global Nset,cp,lp,SinkPaths,phi,c,lc,ArcSign;  </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  SourceSink(Gp);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  if SinkPaths={} then </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">   Links(G);Flow:=0;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">    for node in Out[1] do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">       Flow:=Flow+phi[1,node];</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">    od;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">    lprint (`Maximal flow found`,Flow); </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">  else   </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">     for k from 1 to  nops(SinkPaths) do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">        cost:=0; epset:={};path:=op(k,SinkPaths);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">        for n from 1 to nops(path)-1 do </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">            i:= op(n,path); j:=op(n+1,path);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">            epset:=epset union {cp[i,j]};</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">            cost:=lp[i,j]+cost;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">        od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">        eps:=min(op(epset));</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">        if k=1 then </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">           mincost:=cost;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">           bestpath:=path;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">           besteps:=eps;  </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">        elif mincost&gt;cost then </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">           mincost:=cost; </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">           bestpath:=path;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">           besteps:=eps;  </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">        fi;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">       od:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">   lprint(`The best path in Gp is `,bestpath);
+   lprint(`epsilon, the min capacity on this path, is `,eps);
+   lprint(`min cost is `,mincost);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">   for k from 1 to nops(bestpath)-1 do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">     i:=op(k,bestpath): j:=op(k+1,bestpath):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">     if ArcSign[i,j]=1 then</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">        phi[i,j]:=phi[i,j]+besteps:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">     else</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">        phi[j,i]:=phi[j,i]-besteps:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">    fi; </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">    od;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">fi;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L17" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L18" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Iterate :=  proc(G)</Text-field>
+<Text-field style="Normal258" layout="Normal258">A procedure to iterate network G once. </Text-field>
+<Text-field style="Normal258" layout="Normal258">Output: Gp, path(s) through Gp, eps, cost of update on the best path and current flows;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">IncremNet(G);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lprint(`The incremental network Gp is:`,Gp );lprint();</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lprint(`The path(s) through Gp:`); </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Newflows(G);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lprint(`Current flow (and cost) is `);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Flows(G);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L19" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L20" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>

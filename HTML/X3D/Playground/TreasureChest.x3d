@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D profile='Immersive' version='3.0'  xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation =' http://www.web3d.org/specifications/x3d-3.0.xsd '>
+    <Scene DEF='Scene'>
+        <Group>
+            <!--
+            Name: Taidgh Murray
+            Student ID: 15315901
+            Course: 4BS2
+            Module: CT336
+
+
+            X3D Project worth 25% of the marks
+
+            I decided on a treasure chest / lock box with an opening/closing animation to show whats inside
+            Things to add:
+                    Box -> Extrusion to show insides
+                    Lid -> Extrusion - It's basically a semi circle
+                    Lock -> Box with texture
+                    Coins -> Cylinders
+
+                    Lighting
+
+                    Opening/Closing animation
+
+            --->
+
+            <!-- Box-->
+            <Shape>
+                <Appearance>
+                        <ImageTexture
+                            url = 'wood.jpg'
+                        />
+                        <TextureTransform
+                            rotation = '1.5708'
+                        />
+                </Appearance>
+                <Extrusion
+                    DEF = 'BOX'
+                    beginCap = 'TRUE'
+                    endCap = 'FALSE'
+                    ccw = 'TRUE'
+                    convex = 'TRUE'
+                    creaseAngle = '0'
+                    crossSection = '1 1,  1 -1,  -1 -1,  -1 1, 1 1'
+                    scale = '2 1'
+                    solid = 'FALSE'
+                    spine = '0 -2 0, 0 0 0'
+                    />
+            </Shape>
+
+            <!-- Lid -->
+            <Transform DEF = 'Lid'
+                translation = '0 -2 0'
+                >
+                <Shape>
+                    <Appearance>
+                        <ImageTexture
+                            url = 'wood.jpg'
+                        />
+                    </Appearance>
+                    <Extrusion
+                        DEF = 'LID'
+                        creaseAngle = '2'
+                        crossSection='1 0, 0.92 -0.38, 0.71 -0.71, 0.38 -0.92, 0 -1, -0.38 -0.92, -0.71 -0.71, -0.92 -0.38, -1 0'
+                        solid = 'FALSE'
+                        spine = '-2 2 0, 2 2 0'
+                        scale = '1 1'
+                        orientation = '0 1 0, 1.5708'
+                    />
+                </Shape>
+            </Transform>
+            <TouchSensor DEF = 'Touch' />
+            <TimeSensor DEF = 'Clock' cycleInterval='4' loop='FALSE'/>
+
+            <OrientationInterpolator
+                DEF = 'LidCycle'
+                key = '0 .25 .75 1'
+                keyValue = '0 0 0 0, 1 0 0 -1.0472, 1 0 0 -1.0473, 0 0 0 0'
+            />
+
+
+            <!-- Lock -->
+            <Transform translation = '0 0 1.025'>
+                <Shape>
+                    <Appearance>
+                        <ImageTexture url = 'keyhole.png'/>
+                        <Material
+                          diffuseColor='1 0.843 0'
+                          specularColor='0.855 0.647 0.125'
+                          ambientIntensity='0.3'
+                          shininess='0.3'
+                        />
+                    </Appearance>
+                    <Box
+                        size = '0.5 0.5 0.05'
+                    />
+                </Shape>
+            </Transform>
+
+            <Transform translation = '0 0 1.025'>
+                <Shape>
+                    <Appearance>
+                      <Material
+                        diffuseColor='1 0.843 0'
+                        specularColor='0.855 0.647 0.125'
+                        ambientIntensity='0.3'
+                        shininess='0.3'
+                      />
+                    </Appearance>
+                    <Box
+                        size = '0.51 0.5 0.048'
+                    />
+                </Shape>
+            </Transform>
+
+            <!--Coins-->
+            <Transform translation = '0 -1.9 0'>
+                <Shape>
+                    <Appearance>
+                      <Material
+                        diffuseColor='1 0.843 0'
+                        specularColor='0.855 0.647 0.125'
+                        ambientIntensity='0.3'
+                        shininess='0.3'
+                      />
+                    </Appearance>
+                    <Cylinder
+                        radius = 0.3
+                        height= 0.05
+                    />
+                </Shape>
+            </Transform>
+
+            <Transform translation = '0 -1.8 0'>
+                <Shape>
+                    <Appearance>
+                      <Material
+                        diffuseColor='1 0.843 0'
+                        specularColor='0.855 0.647 0.125'
+                        ambientIntensity='0.3'
+                        shininess='0.3'
+                      />
+                    </Appearance>
+                    <Cylinder
+                        radius = 0.3
+                        height= 0.05
+                    />
+                </Shape>
+            </Transform>
+
+            <Transform translation = '0.8 -1.8 0'>
+                <Shape>
+                    <Appearance>
+                      <Material
+                        diffuseColor='1 0.843 0'
+                        specularColor='0.855 0.647 0.125'
+                        ambientIntensity='0.3'
+                        shininess='0.3'
+                      />
+                    </Appearance>
+                    <Cylinder
+                        radius = 0.3
+                        height= 0.05
+                    />
+                </Shape>
+            </Transform>
+            <Transform translation = '1.6 -1.8 0.6'>
+                <Shape>
+                    <Appearance>
+                      <Material
+                        diffuseColor='1 0.843 0'
+                        specularColor='0.855 0.647 0.125'
+                        ambientIntensity='0.3'
+                        shininess='0.3'
+                      />
+                    </Appearance>
+                    <Cylinder
+                        radius = 0.3
+                        height= 0.05
+                    />
+                </Shape>
+            </Transform>
+
+            <Transform translation = '-1.2 -1.8 -0.3'>
+                <Shape>
+                    <Appearance>
+                      <Material
+                        diffuseColor='1 0.843 0'
+                        specularColor='0.855 0.647 0.125'
+                        ambientIntensity='0.3'
+                        shininess='0.3'
+                      />
+                    </Appearance>
+                    <Cylinder
+                        radius = 0.3
+                        height= 0.05
+                    />
+                </Shape>
+            </Transform>
+        </Group>
+        <!-- Opening Animation -->
+        <ROUTE fromNode = 'Clock' fromField='fraction_changed' toNode = 'LidCycle' toField='set_fraction'/>
+        <ROUTE fromNode = 'Touch' fromField = 'touchTime' toNode = 'Clock' toField = 'set_startTime'/>
+        <ROUTE fromNode = 'LidCycle' fromField = 'value_changed' toNode='Lid' toField='set_rotation'/>
+
+    </Scene>
+</X3D>

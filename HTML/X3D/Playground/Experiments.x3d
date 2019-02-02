@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D profile='Immersive' version='3.0'  xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation =' http://www.web3d.org/specifications/x3d-3.0.xsd '>
+<!--    <Scene DEF='scene'>
+        <Group>
+        <transform DEF='cube'>
+        <Shape>
+            <Appearance>
+                <Material diffuseColor='0 0.7 1'/>
+            </Appearance>
+                <!--<Extrusion
+                    creaseAngle='2'
+                    crossSection='1 0, 0.92 -0.38, 0.71 -0.71, 0.38 -0.92, 0.00 -1.00, -0.38 -0.92, -0.71 -0.71, -0.92 -0.38, -1.00 0.00'
+                    orientation = '1 0 0 -3.1416'
+                    solid='false'
+                    spine='0 1 0, 0 5 0'
+                    scale = '2 2'
+                />
+            <Box size = '1 1 1'/>
+        </Shape>
+        </transform>
+
+        <TimeSensor DEF='Clock' cycleInterval = '4' loop = 'TRUE'/>
+        </Group>
+        <PositionInterpolator DEF='Move' key='0 0.5 1' keyValue = '0 0 0, 0 3 0, 0 0 0'></PositionInterpolator>
+        <ROUTE fromNode = 'Clock' fromField = 'fraction_changed' toNode = 'Move' toField = 'set_fraction'></ROUTE>
+        <ROUTE fromNode = 'Move' fromField = 'value_changed' toNode = 'cube' toField = 'set_translation'></ROUTE>
+    </Scene>
+</X3D>
+-->
+
+
+    <Scene DEF='Scene'>
+        <Group>
+            <!--
+            Name: Taidgh Murray
+            Student ID: 15315901
+            Course: 4BS2
+            Module: CT336
+            X3D project to design a treasure box with lock, that has an opening lid
+
+
+            crossSection='1 0, 0.92 -0.38, 0.71 -0.71, 0.38 -0.92, 0 -1, -0.38 -0.92, -0.71 -0.71, -0.92 -0.38, -1 0'
+
+
+            orientation = '0 1 0, 1.5708'
+
+            <!-- Box-->
+            <Shape>
+                <Appearance>
+                        <ImageTexture
+                            url = 'wood-textures-high-quality-8.jpg'
+                        />
+                </Appearance>
+                <Extrusion
+                    DEF = 'BOX'
+                    beginCap = 'TRUE'
+                    endCap = 'FALSE'
+                    ccw = 'TRUE'
+                    convex = 'TRUE'
+                    creaseAngle = '0'
+                    crossSection = '2 1,  2 -1,  -2 -1,  -2 1,  2 1'
+                    solid = 'FALSE'
+                    spine = '0 -2 0, 0 0 0'
+                    />
+            </Shape>
+
+            <!-- Lid -->
+            <Transform DEF = 'Lid'
+                translation = '0 -2 0'
+                >
+                <Shape>
+                    <Appearance>
+                        <ImageTexture
+                            url = 'wood-textures-high-quality-8.jpg'
+                        />
+                    </Appearance>
+                    <Extrusion
+                        DEF = 'LID'
+                        creaseAngle = '2'
+                        crossSection='1 0, 0.92 -0.38, 0.71 -0.71, 0.38 -0.92, 0 -1, -0.38 -0.92, -0.71 -0.71, -0.92 -0.38, -1 0'
+                        solid = 'FALSE'
+                        spine = '-2 2 0, 2 2 0'
+                        scale = '1 1'
+                        orientation = '0 1 0, 1.5708'
+                    />
+                </Shape>
+            </Transform>
+            <TouchSensor DEF = 'Touch' />
+            <TimeSensor DEF = 'Clock' cycleInterval='1'/>
+
+            <OrientationInterpolator
+                DEF = 'LidOpen'
+                key = '0 1'
+                keyValue = '0 0 0 0, 2 0 0 -1.0472'
+            />
+
+
+            <!-- Lock -->
+            <Transform translation = '0 0 1.025'>
+                <Shape>
+                    <Appearance>
+                        <ImageTexture url = 'keyhole.png'/>
+                    </Appearance>
+                    <Box
+                        size = '0.5 0.5 0.05'
+                    />
+                </Shape>
+            </Transform>
+
+            <Transform translation = '0 0 1.025'>
+                <Shape>
+                    <Appearance>
+                        <Material diffuseColor='1 0.843 0'/>
+                    </Appearance>
+                    <Box
+                        size = '0.51 0.5 0.048'
+                    />
+                </Shape>
+            </Transform>
+
+            <!--Coins-->
+            <Transform translation = '0 -1.9 0'>
+                <Shape>
+                    <Appearance>
+                        <Material diffuseColor = '1 0.843 0'/>
+                    </Appearance>
+                    <Cylinder
+                        radius = 0.3
+                        height= 0.05
+                    />
+                </Shape>
+            </Transform>
+
+            <Transform translation = '0 -1.8 0'>
+                <Shape>
+                    <Appearance>
+                        <Material diffuseColor = '1 0.843 0'/>
+                    </Appearance>
+                    <Cylinder
+                        radius = 0.3
+                        height= 0.05
+                    />
+                </Shape>
+            </Transform>
+
+            <Transform translation = '0.8 -1.8 0'>
+                <Shape>
+                    <Appearance>
+                        <Material diffuseColor = '1 0.843 0'/>
+                    </Appearance>
+                    <Cylinder
+                        radius = 0.3
+                        height= 0.05
+                    />
+                </Shape>
+            </Transform>
+
+            <Transform translation = '-1.2 -1.8 -0.3'>
+                <Shape>
+                    <Appearance>
+                        <Material diffuseColor = '1 0.843 0'/>
+                    </Appearance>
+                    <Cylinder
+                        radius = 0.3
+                        height= 0.05
+                    />
+                </Shape>
+            </Transform>
+        </Group>
+        <!-- Opening Animation -->
+        <ROUTE fromNode = 'Clock' fromField='fraction_changed' toNode = 'LidOpen' toField='set_fraction'/>
+        <ROUTE fromNode = 'Touch' fromField = 'touchTime' toNode = 'Clock' toField = 'set_startTime'/>
+        <ROUTE fromNode = 'LidOpen' fromField = 'value_changed' toNode='Lid' toField='set_rotation'/>
+
+    </Scene>
+</X3D>

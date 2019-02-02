@@ -1,0 +1,26 @@
+#lang racket
+
+;Display contents of a binary search tree in sorted order
+(define (display_tree lst)
+  return 0)
+
+;return #t or #f if an item is present or absent in a tree repsectively
+(define (TrueOrFalse el lst)
+  return 0)
+
+;Insert an item into the correct position of a list
+(define (InsertToList el lst)
+  return 0)
+
+;take a list of items and insert them into a binary search tree
+(define (ListInserter lst treeList)
+  return 0)
+
+;Implemet a tree-sort algorithm
+(define (TreeSortAlgorithm lst)
+  return 0)
+
+;Implements a higer order version of the tree-sort function & takes a list
+;of functions that determines the sorted order
+;e.g write a version that sorts the list in ascending, descending & based
+;on last digit

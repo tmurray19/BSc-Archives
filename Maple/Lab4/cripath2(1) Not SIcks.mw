@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="11" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false"></View-Properties>
+<MapleNet-Properties warnlevel="3" longdelim="true" plotoptions="" echo="1" errorcursor="false" elisiontermsthreshold="10000" elisiontermsbefore="100" errorbreak="1" prettyprint="3" prompt="&gt; " latexwidth="6.0" useclientjvm="true" ansi="false" screenheight="25" labelwidth="20" plotdevice="inline" typesetting="standard" displayprecision="-1" indentamount="4" elisiondigitsthreshold="10000" quiet="false" plotoutput="terminal" rtablesize="10" preplot="" showassumed="1" plotdriver="openviz" elisiontermsafter="100" labelling="true" postplot="" screenwidth="79" elisiondigitsbefore="100" elisiondigitsafter="100" verboseproc="1" imaginaryunit="I" ShowLabels="true"/>
+<Styles><Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle272" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Variable" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="9" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle275" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Number" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle270" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Nonterminal" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Default" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle8" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Comment" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle7" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle5" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="R3 Font 2" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle10" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle271" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle265" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Popup" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="_cstyle18" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Copyright" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small202" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle14" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="_cstyle268" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle261" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle11" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle17" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle269" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle260" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle258" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal260" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="R3 Font 0" background="[255,255,255]" bold="true" executable="false" family="Arial" foreground="[128,0,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle267" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle274" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Heading" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle6" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle13" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="_cstyle264" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Emphasized" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle257" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="LaTeX" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle276" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle6" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Help Underlined Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="_cstyle3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal261" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle263" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle256" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle4" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle14" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal262" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Left Justified Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Emphasized224" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle10" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle9" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal263" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle273" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal259" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle1" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle15" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle7" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle16" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle262" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Fixed" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle12" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle266" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle8" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold Small" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal258" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle13" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Fixed Width" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle9" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Help Notes" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="_pstyle17" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Symbol 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle11" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle15" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle16" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small234" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle259" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle1" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Output Labels" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Comment" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Maple Name" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Menus" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Prompt" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle12" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal262" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Left Justified Maple Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Help" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle10" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal263" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal259" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="none" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle15" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle8" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle7" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle12" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle2" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle5" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal258" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Fixed Width" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle14" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle9" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle17" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="none" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle16" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle11" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal260" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="R3 Font 0" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle13" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="none" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle6" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal261" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="none" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Page-Numbers enabled="false" first-number="1" first-numbered-page="1" horizontal-location="right" style="Page Number" vertical-location="bottom"/>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Annotation-table>
+    <Annotation-category name="&lt;default&gt;">
+    </Annotation-category>
+</Annotation-table>
+<Task>
+</Task>
+<Group labelreference="L3" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4" drawlabel="true">
+<Input>
+<Text-field style="_pstyle2" layout="_pstyle2"><Font style="_cstyle2">MP305 Activity Networks</Font></Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3">A project consists of N activities A,B,C,.... each taking some time to complete which obey precedence relations e.g. C takes place after A etc.</Text-field>
+<Text-field style="_cstyle5" layout="_pstyle4"></Text-field>
+<Text-field style="_cstyle6" layout="_pstyle5">In this worksheet activities are described by a set Act:={&quot;A&quot;,&quot;B&quot;,...} where the quotes allow us name activities in any convenient fashion e.g.  Act:={&quot;First Job&quot;,&quot;Tea Break&quot;,...}.</Text-field>
+<Text-field style="_cstyle7" layout="_pstyle7"></Text-field>
+<Text-field style="_pstyle4" layout="_pstyle4"><Font style="_cstyle8">The Time taken to complete the activities is described by a table called Time e.g. Time</Font><Font style="_cstyle5">[&quot;</Font><Font style="_cstyle8">First Job</Font><Font style="_cstyle5">&quot;]:</Font><Font style="_cstyle8">=3 etc</Font></Text-field>
+<Text-field style="_cstyle5" layout="_pstyle4"></Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3">Precedence relations are described by a table called Prec with entries giving the set of preceeding activities </Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3">e.g.  Prec[&quot;First Job&quot;]:={} if no preceeding activity exists or Prec[&quot;Tea Break&quot;]:={&quot;First Job&quot;} if &quot;Tea Break&quot; must take place after the first job has been completed.</Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3"></Text-field>
+<Text-field style="_cstyle9" layout="_pstyle8">The procedure Activity(Act,Time,Prec) takes the given activities set Act, the table Time and the precedence relations table Prec and relabels the activities according to the Fulkerson algorithm from 0 to N+1 where the START has label 0 and the FINISH has label N+1.  A graph of the arcs of the Activity network (without Time labels) is then produced. This may not always be in its most simple presentation.</Text-field>
+<Text-field style="_pstyle4" layout="_pstyle4"><Font style="_cstyle8">A set G of arcs [i,j] with vertices i,j labelled by 0,1,2,.. N+1 is produced which describes the network.</Font><Font style="_cstyle5"> </Font></Text-field>
+<Text-field style="_cstyle10" layout="_pstyle9">An array T which describes the completion time for activity i is also produced. </Text-field>
+<Text-field style="_cstyle5" layout="_pstyle4"></Text-field>
+<Text-field style="_cstyle11" layout="_pstyle10">G and T can be also defined directly by the user if the Fulkerson labelling is known.</Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3"></Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3">The procedure CritPath(G,T) computes the critical path, the minimum project completion time, the earliest and  latest starting times and the float for each activity.</Text-field>
+<Text-field style="_cstyle5" layout="_pstyle4"></Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3">The procedure CritSchedule(G,T,Nw) implements the Critical Path Schedule for assigning tasks to Nw workers.  The output describes the assignement of activities to each worker together with a fancy graphical display of the history over time.
+        
+The procedure ProtSchedule(G,T,Nw)  implements the Protection Scheme Schedule for assigning tasks to Nw workers. The output describes the assignement of activities to each worker together with a fancy graphical display of the history over time.</Text-field>
+<Text-field style="_cstyle7" layout="_pstyle7"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_pstyle1" layout="_pstyle1"><Font style="_cstyle12">with(networks)</Font><Font style="_cstyle1">:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L6" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">Activity:=proc(Act,Time,Prec)
+global G,T;
+local FinInd,LabeliA,LabelAi,iA,NewP,Acurrent,newA,Ai,AA,AB,iAA,iAB,
+Alist,FinNode,NewA,NewAlist,i,arc;
+FinInd:=nops(Act)+1;
+T:=array(0..FinInd);T[0]:=0;T[FinInd]:=0;
+LabelAi:=table();LabeliA:=table();
+LabelAi[0]:=&quot;Start&quot;;LabeliA[&quot;Start&quot;]:=0;
+iA:=0;
+NewP:=table();
+for AA in Act do 
+  NewP[AA]:=Prec[AA];
+end do;
+Acurrent:=Act;
+Alist:=[0];#ordered activities
+while Acurrent&lt;&gt;{} do
+NewA:={};
+for Ai in Acurrent do
+ if NewP[Ai]={} then NewA:=NewA union {Ai}; end if;
+end do;
+NewAlist:={};
+for i from 1 to nops(NewA) do
+  LabelAi[i+iA]:=op(i,NewA);
+  LabeliA[op(i,NewA)]:=i+iA;
+  NewAlist:=NewAlist union {i+iA};
+  T[i+iA]:=Time[op(i,NewA)]; 
+end do;
+Alist:=Alist,[seq(op(nops(NewAlist)-i,NewAlist),i=0..nops(NewAlist)-1)];
+iA:=iA+nops(NewA);
+Acurrent:=Acurrent minus NewA;
+for Ai in Act do
+ NewP[Ai]:=NewP[Ai] minus NewA;
+end do;
+end do:
+LabelAi[FinInd]:=&quot;Finish&quot;;
+LabeliA[&quot;Finish&quot;]:=FinInd;
+Alist:=Alist,[FinInd];
+G:={};FinNode:={seq(i,i=1..FinInd-1)};
+for AA in Act do
+ iAA:=LabeliA[AA]: 
+ if Prec[AA]={} then 
+   G:=G union {[0,iAA]};
+ else  
+   for AB in Prec[AA] do
+      iAB:=LabeliA[AB];
+      FinNode:=FinNode minus {iAB};
+      G:=G union {[iAB,iAA]};
+    end do:
+ end if;
+end do:
+for iA in FinNode do
+  G:=G union {[iA,FinInd]};
+end do:
+new(Graph):
+addvertex(seq(i,i=0..FinInd),Graph):
+for arc in G do
+  connect([arc[1]],[arc[2]],Graph);
+end do;
+print(`The Activities have been relabeled with completion times:`);
+for i from 0 to FinInd do
+  print(`Activity `,LabelAi[i],` is activity `,i,` with completion time `,T[i]);
+end do;
+print(`The following is a graph of the Activity network:`);
+print(draw(Linear(Alist),Graph));
+print(`The Activity Network is described by the set G:`); 
+G;
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L10" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L11" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">CritPath:=proc(G,T)</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">local p,newe,critpath,start,i,j,v;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">global e,l,f,In,Out,N;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># N, number of activities</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">N:=max(seq(op(op(i,G)),i=1..nops(G)))-1;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># Vertices In and Out of a given one</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">In:=table();Out:=table();</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">for i from 0 to N+1 do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  In[i]:={};Out[i]:={};</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">for v in G do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  i:=op(1,v);j:=op(2,v);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  In[j]:=In[j] union {i}; Out[i]:=Out[i] union {j};</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># Forward scan</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">T[0]:=0;T[N+1]:=0;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># e gives the earliest starting times </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">e:=table();p:=table();</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">e[0]:=0;p[0]:=0;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">for j from 1 to N+1 do </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  v:=op(1,In[j]);e[j]:=e[v]+T[v];p[j]:=v;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  for v in In[j] do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    newe:=e[v]+T[v];</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    if newe &gt;=e[j] then </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">      e[j]:=newe;p[j]:=v;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    fi:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># Backward Scan</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">critpath:=N+1;start:=N+1;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">while not start = 0 do </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  start:=p[start];critpath:=start,critpath;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">critpath:=[critpath];
+print(`The Total amount of work to be completed is:`, add(T[jj],jj=1..N));</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">print(`The Critical Path is:`, critpath);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">print(`The minimum completion time with sufficient workers is:`, e[N+1]);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># Latest starting times</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">l:=table();f:=table();f[N+1]:=0;l[N+1]:=e[N+1];</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">for i from N by -1 to 0 do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  l[i]:=min(op(map(v-&gt;l[v],Out[i])))-T[i];f[i]:=l[i]-e[i];</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">print(`Activity Earliest Latest Float`);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">for i from 0 to N+1 do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  print(i,`   `,e[i],`    `,l[i],`   `,f[i]);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L12" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L13" drawlabel="true">
+<Input>
+<Text-field style="_cstyle5" layout="_pstyle4"></Text-field>
+<Text-field style="_cstyle13" layout="_pstyle11">Example1: The Chemical Process example discussed in class:</Text-field>
+<Text-field style="_cstyle7" layout="_pstyle7"></Text-field>
+<Text-field style="_cstyle14" layout="_pstyle13">Start with the set of activities, completion times and precedence relations</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">Act:={&quot;A&quot;,&quot;B&quot;,&quot;C&quot;,&quot;D&quot;,&quot;E&quot;,&quot;F&quot;,&quot;G&quot;};</Text-field>
+</Input>
+</Group>
+<Group labelreference="L14" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">Time:=table();
+Time[&quot;A&quot;]:=2;
+Time[&quot;B&quot;]:=1;
+Time[&quot;C&quot;]:=3;
+Time[&quot;D&quot;]:=3;
+Time[&quot;E&quot;]:=2;
+Time[&quot;F&quot;]:=1;
+Time[&quot;G&quot;]:=3;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L15" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">Prec:=table();</Text-field>
+</Input>
+</Group>
+<Group labelreference="L16" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">Prec[&quot;A&quot;]:={};
+Prec[&quot;B&quot;]:={};
+Prec[&quot;C&quot;]:={};
+Prec[&quot;D&quot;]:={&quot;A&quot;,&quot;B&quot;};
+Prec[&quot;E&quot;]:={&quot;B&quot;,&quot;C&quot;,&quot;D&quot;};
+Prec[&quot;F&quot;]:={&quot;A&quot;,&quot;D&quot;};
+Prec[&quot;G&quot;]:={&quot;E&quot;,&quot;F&quot;};</Text-field>
+</Input>
+</Group>
+<Group labelreference="L17" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">Activity(Act,Time,Prec);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L18" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">G;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L19" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">print(T);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L20" drawlabel="true">
+<Input>
+<Text-field style="_cstyle4" layout="_pstyle3">G and T are now defined.</Text-field>
+</Input>
+</Group>
+<Group labelreference="L21" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">CritPath(G,T);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L22" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L23" drawlabel="true">
+<Input>
+<Text-field style="_cstyle15" layout="_pstyle14">Scheduling Stategies</Text-field>
+<Text-field style="_cstyle15" layout="_pstyle14">The Critical Path Scheduling Strategy is implemented by the procedure </Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3"></Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3">CritSchedule(G,T,Nw)</Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3"></Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3">where Nw is the number of workers.  The output describes the assignement of activities to each worker together with a fancy graphical display of the history over time. The procedure depends on two others </Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3"></Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3">RankSet1</Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3"></Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3">which ranks available activities by their latest starting times and </Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3"></Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3">GraphSchedule </Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3"></Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3">which produces some fancy graphics for the scheduling of activities. These are best viewed by plotting in separate window by choosing plot display -&gt; window in the options menu above.</Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L24" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">RankSet1:=proc(vset::set)</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># This procedure ranks the elements of a given set </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># according to a given rank function</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">local vmax,vi,vj,ri,rj,i,j,vlist,nlist,Rank;
+global l,e;
+# Rank according to latest starting time
+#
+Rank:=v-&gt;l[v];
+#
+#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">if vset={} then RETURN([]);fi:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">vlist:=convert(vset,list);vmax:=op(1,vlist);nlist:=nops(vlist);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">for i from 1 to nlist do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  for j from i to nlist do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    vi:=op(i,vlist);vj:=op(j,vlist);ri:=Rank(vi);rj:=Rank(vj);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># if two elements have same ranking, </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># element with lowest label is placed first</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    if ri &gt; rj or (ri=rj and vi&gt;vj) then</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">      vlist:=subsop(i=vj,j=vi,vlist);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    fi;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  od;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">od;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">vlist;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L25" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle12" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L26" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle12" layout="_pstyle1">with(plots,display,textplot):with(plottools,rectangle):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L27" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">GraphSchedule:=proc(schedulelist)
+#
+# Fancy graphics for displaying of scheduling
+#
+local alltextseq,alltaskrect,tmax,colorlist,nwork,
+nsteps,workername,worktext,workercolor,task,nexttask,y0,tasklist,t,tnext,taskname, tavg,tasktext,i , fontsize, timetextseq, timetickmarks,it,tname,Nw;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">alltextseq:=textplot([-2,0.5,`Time`],align={left}):
+alltaskrect:=op({});tmax:=0;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">colorlist:=[yellow,green,coral,wheat];
+Nw:=nops(schedulelist);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">for nwork from 1 to Nw do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  y0:=-nwork+1:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  tasklist:=op(nwork,schedulelist);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  nsteps:=nops(tasklist)/4;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  workername:=convert(cat(''Worker'',nwork),string):
+  worktext:=textplot([-2,y0-0.5,`workername`],align={left}):
+  workercolor:=op((nwork-1) mod 4 +1,colorlist);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  alltextseq:=alltextseq,worktext:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  for i from 0 to nsteps-1 do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    task:=op(4*i+2,tasklist);
+    nexttask:=op(4*i+4,tasklist);
+    t:=op(4*i+1,tasklist):
+    tnext:=op(4*i+3,tasklist);
+    if task=0 then
+      alltaskrect:=alltaskrect,rectangle([t,y0-1], [tnext,y0],        color=white):
+       taskname:=``:
+    else</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">      alltaskrect:=alltaskrect,rectangle([t,y0-1], [tnext,y0],       color=workercolor):
+      taskname:=convert(task,string):
+    fi:
+    tavg:=(t+tnext)/2.0:
+    tasktext:=textplot([tavg,y0-0.5,`taskname`]):
+    alltextseq:=alltextseq,tasktext:
+  od:
+  tmax:=max(tnext,tmax);
+od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">fontsize:=min(max(9,trunc(200/tmax)),16):</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">timetextseq:=op({}):timetickmarks:=op({}):</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">for it from 0 to tmax do
+  tname:=convert(it,string):
+#  if it mod(trunc(tmax/8.))=0 then
+    timetextseq:=timetextseq,textplot([it,.4,`tname`],align={above}):
+#  fi; 
+timetickmarks:=timetickmarks,plot([[it,0],[it,0.2]],color=black):
+od:
+timetickmarks:=timetickmarks,plot([[0,0],[tmax,0]],color=black):
+alltextseq:=alltextseq,timetextseq:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">display({timetickmarks,alltaskrect,display({alltextseq},font=[TIMES,ROMAN,fontsize])}, scaling=constrained,axes=none);
+end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L28" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L29" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">CritSchedule:=proc(G,T,Nw)</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># This procedure finds the optimal schedule </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># according to the critical path scheduling algorithm
+# for Nw workers. Any idle worker is always assigned 
+# an activity if possible.</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">local Tset,Tot,k,kk,i,Topt,Acts,Current,Done,
+Next,Time,DelT,Tleft,Nextlist,noc,v,w,workertaskseq,
+workerv,availset,Activity,nextjob,workeri,schedulelist;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">global N,In,Out,e;
+# first find critical path parameters
+CritPath(G,T);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># Total time for all activities</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">Tot:=sum(T[k],k=1..N);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># Optimal time assuming precedence relations can be satisfied</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">Topt:=max(Tot/Nw,e[N+1]);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">Acts:={seq(k,k=1..N+1)};
+# sequences of tasks undertaken by worker i
+workertaskseq:=array(1..Nw):
+for i from 1 to Nw do
+ workertaskseq[i]:=op({});
+od:
+#set of workers available
+availset:={seq(kk,kk=1..Nw)};
+#array giving worker assigned to activity k
+Activity:=array(1..N):  </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># The activities Done, Current and Next</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">Current:={};Done:={};Next:=Out[0];Time:=0;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># The Time left for activities</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">Tleft:=table(); </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  for i from 0 to N+1 do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  Tleft[i]:=T[i];</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">while nops(Done)&lt;&gt;N do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># Assign activities to available workers:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"> Nextlist:=RankSet1(Next);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  noc:=nops(Current);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  for i from 1 to min(Nw-noc,nops(Next)) do
+    nextjob:=op(i,Nextlist);
+    workeri:=op(1,availset);# first available worker is chosen
+    Activity[nextjob]:=workeri;
+    availset:=availset minus {workeri};
+    workertaskseq[workeri]:=workertaskseq[workeri],Time,nextjob;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    Current:=Current union {nextjob};</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    Next:=Next minus {nextjob};</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  lprint(`Time=`,Time,`Current activities=`,op(Current));</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  Tset:={};</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  for v in Current do </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    Tset:=Tset union {Tleft[v]};</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># Time before next activity completed </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"> DelT:=min(op(Tset));</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  Time:=Time+DelT;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  for v in Current do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    Tleft[v]:=Tleft[v]-DelT;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    if Tleft[v]=0 then</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">      lprint(`Time=`,Time,`Activity`,v,`completed`);
+      workerv:=Activity[v];
+      workertaskseq[workerv]:=workertaskseq[workerv],Time,v;
+      availset:=availset union {workerv};</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">      Done:=Done union {v};Current:=Current minus {v};</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">      for w in Out[v] do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">         if In[w] minus Done = {} then </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">           Next:=Next union {w} minus {N+1}:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">         fi:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">     od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    fi:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">if Time = Topt then </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  lprint();</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  lprint(`****** Optimal Schedule Found for `,Nw,` Workers! *****`);
+  if Topt=e[N+1] then lprint(`****** The Minimal Completion Time of `,e[N+1],` is achieved for `,Nw,` Workers! *****`);end if;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">fi:
+schedulelist:=[seq([workertaskseq[k]],k=1..Nw)];
+#print(schedulelist);
+GraphSchedule(schedulelist);
+end:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L30" drawlabel="true">
+<Input>
+<Text-field style="_cstyle16" layout="_pstyle15">Example with chemical process discussed in class</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">G:={[0,1],[0,2],[0,3],[1,4],[1,6],[2,4],[2,5],[3,5],[4,5],[4,6],[5,7],[6,7],[7,8]};T[1]:=2;T[2]:=1;T[3]:=3;T[4]:=3;T[5]:=2;T[6]:=1;T[7]:=3;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L32" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">CritSchedule(G,T,2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L33" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L34" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L35" drawlabel="true">
+<Input>
+<Text-field style="_pstyle3" layout="_pstyle3"><Font style="_cstyle4">The </Font><Font style="_cstyle17">Protection Scheme Scheduling Strategy</Font><Font style="_cstyle4"> is implemented by the procedure </Font></Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3"></Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3">ProtSchedule(G,T,Nw)</Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3"></Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3">where Nw is the number of workers.  The output describes the assignement of activities to each worker together with a fancy graphical display of the history over time. The procedure depends on two others: </Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3"></Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3">RankSet2</Text-field>
+<Text-field style="_cstyle7" layout="_pstyle7"></Text-field>
+<Text-field style="_cstyle18" layout="_pstyle16">which ranks available activities by the sum of the earliest and latest starting times</Text-field>
+<Text-field style="_cstyle7" layout="_pstyle7"></Text-field>
+<Text-field style="_cstyle4" layout="_pstyle3">GraphSchedule as before.</Text-field>
+</Input>
+</Group>
+<Group labelreference="L36" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L37" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">RankSet2:=proc(vset::set)</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># This procedure ranks the elements of a given set </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># according to a given rank function</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">local vmax,vi,vj,ri,rj,i,j,vlist,nlist,Rank;
+global l,e;
+# Rank according to sum of earliest and latest starting time
+#
+Rank:=v-&gt;e[v]+l[v];
+#
+#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">if vset={} then RETURN([]);fi:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">vlist:=convert(vset,list);vmax:=op(1,vlist);nlist:=nops(vlist);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">for i from 1 to nlist do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  for j from i to nlist do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    vi:=op(i,vlist);vj:=op(j,vlist);ri:=Rank(vi);rj:=Rank(vj);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># if two elements have same ranking, </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># element with lowest label is placed first</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    if ri &gt; rj or (ri=rj and vi&gt;vj) then</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">      vlist:=subsop(i=vj,j=vi,vlist);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    fi;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  od;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">od;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">vlist;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">end:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L38" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L39" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">ProtSchedule:=proc(G,T,Nw)</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># This procedure finds the optimal schedule </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># according to the Protection scheduling algorithm
+# for Nw workers i.e. activities must be completed </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># in the strict order of the given ranking 
+# A worker can be idle if the next ranked activity
+# is not available.</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#
+local Tset,Tot,k,kk,i,Topt,Acts,Current,Done,
+Next,Time,DelT,Tleft,Nextlist,noc,v,w,workertaskseq,
+workerv,availset,Activity,nextjob,workeri,schedulelist,AllRank;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">global N,In,Out,e,l;
+# first find critical path parameters
+CritPath(G,T);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># Total time for all activities</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">Tot:=sum(T[k],k=1..N);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># Optimal time assuming precedence relations can be satisfied</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">Topt:=max(Tot/Nw,e[N+1]);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">Acts:={seq(k,k=1..N+1)};
+# sequences of tasks undertaken by worker i
+workertaskseq:=array(1..Nw):
+for i from 1 to Nw do
+ workertaskseq[i]:=op({});
+od:
+#set of workers available
+availset:={seq(kk,kk=1..Nw)};
+#array giving worker assigned to activity k
+Activity:=array(1..N):  </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># The activities Done, Current and Next</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">Current:={};Done:={};Next:=Out[0];Time:=0;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># The Time left for activities</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">Tleft:=table(); </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  for i from 0 to N+1 do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  Tleft[i]:=T[i];</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">od:
+AllRank:=RankSet2({seq(kk,kk=1..N)});</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">while nops(Done)&lt;&gt;N do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># Assign activities to available workers:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">#</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"> Nextlist:=RankSet2(Next);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  noc:=nops(Current);</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  for i from 1 to min(Nw-noc,nops(Nextlist)) do
+    nextjob:=op(i,Nextlist);
+    workeri:=op(1,availset);# first available worker is chosen
+    if nextjob=AllRank[1] then # next ranked job is possible 
+      Activity[nextjob]:=workeri;
+      availset:=availset minus {workeri};
+      workertaskseq[workeri]:=workertaskseq[workeri],Time,nextjob;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">      Current:=Current union {nextjob};</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">      Next:=Next minus {nextjob};
+      AllRank:=RankSet2({op(AllRank)} minus {nextjob});
+    fi: </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  lprint(`Time=`,Time,`Current activities=`,op(Current));lprint();</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  Tset:={};</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  for v in Current do </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    Tset:=Tset union {Tleft[v]};</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"># Time before next activity completed </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"> DelT:=min(op(Tset));</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  Time:=Time+DelT;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  for v in Current do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    Tleft[v]:=Tleft[v]-DelT;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    if Tleft[v]=0 then</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">      lprint(`Time=`,Time,`Activity`,v,`completed`);
+      workerv:=Activity[v];
+      workertaskseq[workerv]:=workertaskseq[workerv],Time,v;
+      availset:=availset union {workerv};</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">      Done:=Done union {v};Current:=Current minus {v};</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">      for w in Out[v] do</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">         if In[w] minus Done = {} then </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">           Next:=Next union {w} minus {N+1}:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">         fi:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">     od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">    fi:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">od:</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">if Time = Topt then </Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  lprint();</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">  lprint(`****** Optimal Schedule Found for `,Nw,` Workers! *****`);
+  if Topt=e[N+1] then lprint(`****** The Minimal Completion Time of `,e[N+1],` is achieved for `,Nw,` Workers! *****`);end if;</Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">fi:
+schedulelist:=[seq([workertaskseq[k]],k=1..Nw)];#print(schedulelist);
+GraphSchedule(schedulelist);
+end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L40" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1">ProtSchedule(G,T,2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L41" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L42" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L43" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L44" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L45" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L46" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="_cstyle1" layout="_pstyle1"></Text-field>
+</Input>
+</Group>
+<Text-field style="_pstyle17" layout="_pstyle17"></Text-field>
+</Worksheet>
